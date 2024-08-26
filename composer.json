@@ -17,6 +17,7 @@
     ],
     "require": {
         "wpackagist-plugin/woocommerce": "9.2.2",
+        "wpackagist-plugin/elementor": "3.23.4",
         "wpengine/advanced-custom-fields-pro": "^6.3"
     }
 }

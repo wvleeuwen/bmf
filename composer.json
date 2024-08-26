@@ -9,9 +9,14 @@
                 "wpackagist-plugin/*",
                 "wpackagist-theme/*"
             ]
+        },
+        {
+            "type":"composer",
+            "url":"https://connect.advancedcustomfields.com"
         }
     ],
     "require": {
-        "wpackagist-plugin/woocommerce": "9.2.2"
+        "wpackagist-plugin/woocommerce": "9.2.2",
+        "wpengine/advanced-custom-fields-pro": "^6.3"
     }
 }

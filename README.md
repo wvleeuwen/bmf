@@ -1,1 +1,1 @@
-# BMF Core plugin
+# BMF E-commerce website

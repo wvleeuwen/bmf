@@ -1,0 +1,17 @@
+{
+    "name": "BMF Core",
+    "slug": "xsc-bmf",
+    "version": "%BMF_PLUGIN_VERSION%",
+    "tested": "6.6.1",
+    "homepage": "https://xstringcommands.com",
+    "description": "Email services.",
+    "requires": "5.8",
+    "author": "<a href=\"https://zaterdagochtend.nl\">Wijnand van Leeuwen</a>",
+    "package": "https://s3.eu-west-1.amazonaws.com/zaterdagochtend.releases/xsc-bmf/xsc-bmf.zip",
+    "sections": {
+        "description": "",
+        "changelog": "",
+        "installation": "",
+        "upgrade_notice": ""
+    }
+}

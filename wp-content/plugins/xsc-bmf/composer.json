@@ -1,0 +1,11 @@
+{
+    "name": "xsc/bmf-core",
+    "description": "The core plugin for BMF email services",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "XSC\\BMF\\": "src/"
+        }
+    },
+    "require": {}
+}

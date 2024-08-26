@@ -1,0 +1,17 @@
+{
+    "name": "xsc/bmf",
+    "description": "The E-commerce site for BMF.",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/woocommerce": "9.2.2"
+    }
+}

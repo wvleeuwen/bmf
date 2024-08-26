@@ -1,0 +1,6 @@
+/vendor/
+
+/wp-content/plugins/*
+/wp-content/themes/*
+
+!/wp-content/plugins/xsc-bmf

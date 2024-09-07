@@ -1,6 +1,8 @@
 <?php
 namespace XSC\BMF;
 
+use XSC\BMF\Services;
+
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) )
     exit;
@@ -35,5 +37,11 @@ class Core
     public function init() 
     {
         Updater\Module::init();
+        Services\WooCommerceProductData::init();
+        Services\WooCommerceCart::init();
+        Services\WooCommerceEmptyCartCommand::init();
+        Services\CronjobIntervals::init();
+        Controllers\SubscriptionFulfillmentCronjob::init();
+        Controllers\SubscriptionCancellationCronjob::init();
     }
 }
